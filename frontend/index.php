@@ -8,12 +8,12 @@
     <title>Excursieblog</title>
 </head>
 <body>
-    <header>
-        <nav>
-            
+        <!-- <header>
+            <nav>
+                
 
-        </nav>
-    </header>
+            </nav>
+        </header> -->
     
     <div id="links">
     <a href="index.html">Home</a>
@@ -24,6 +24,7 @@
     <a href="">Register</a>
     </div>
     <hr />
+    
     <footer>
 
     </footer>

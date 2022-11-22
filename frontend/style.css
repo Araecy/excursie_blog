@@ -2,7 +2,7 @@
     --mainfont: 'Poppins', sans-serif;
 }
 
-
+/* 60/60/59 - Darkgrey */
 
 html{
     margin: 0;
@@ -10,32 +10,37 @@ html{
 }
 body {
     font-family: var(--mainfont);
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    /* width: 80vh; */
-    background-color: lightgrey;
+    width: 80%;
+    height: 120vh;
+    
 }
 
 
 /* HEADER */
 header{
-    width: 60vh;
+    border-radius: 6px;
+    width: 60%;
     height: 80px;
     background-color: darkgrey;
-    margin: 120px auto 30px auto;
+    margin: 100px auto 30px auto;
+    color: rgb(60, 60, 65);
 }
 nav{
 
 }
 #links{
-    width: 60vh;
-    height: 50px;
-    margin: 0 auto;
+    width: 50%;
+    height: 30px;
+    margin: 65px auto 0px auto;
 }
 #links > a{
     text-decoration: none;
-    color: white;
-    padding: 10px;
+    color: black;
+    padding: 0px 8px 0px 8px;
+   
+
 }
 #links > a:nth-child(n+4){  
     float: right;
