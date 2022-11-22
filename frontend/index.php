@@ -8,23 +8,21 @@
     <title>Excursieblog</title>
 </head>
 <body>
-        <!-- <header>
-            <nav>
-                
-
-            </nav>
-        </header> -->
-    
+    <img id="logo" src="images/logo.png" alt="">
     <div id="links">
-    <a href="index.html">Home</a>
-    <a href="">Create blog</a>
-    <a href="">Browse blogs</a>
+    
+        <a href="index.php">Home</a>
+        <a href="">Create blog</a>
+        <a href="">Browse blogs</a>
 
-    <a href="">Login</a>
-    <a href="">Register</a>
+        <a href="../backend/login.php">Login</a>
+        <a href="#">Register</a>
     </div>
     <hr />
-    
+    <div id="body-container">
+
+
+    </div>
     <footer>
 
     </footer>
