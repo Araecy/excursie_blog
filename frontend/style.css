@@ -1,9 +1,45 @@
+:root{
+    --mainfont: 'Poppins', sans-serif;
+}
+
+
+
 html{
     margin: 0;
     padding: 0;
 }
 body {
+    font-family: var(--mainfont);
     margin: 0;
     padding: 0;
-    
+    /* width: 80vh; */
+    background-color: lightgrey;
+}
+
+
+/* HEADER */
+header{
+    width: 60vh;
+    height: 80px;
+    background-color: darkgrey;
+    margin: 120px auto 30px auto;
+}
+nav{
+
+}
+#links{
+    width: 60vh;
+    height: 50px;
+    margin: 0 auto;
+}
+#links > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#links > a:nth-child(n+4){  
+    float: right;
+}
+hr{
+    width: 60%;
 }
