@@ -17,12 +17,16 @@ if (strlen($username)>0 && strlen($password)>0){
     $queryww = "SELECT 'password' FROM `usersblog` ";
     $queryww .= "WHERE username='$username' AND password='$password'";
 
+    $querylevel = "SELECT 'level' FROM `usersblog` ";
+    $querylevel .= "WHERE username='$username' AND password='$password'";
 
     $result1 = mysqli_query($mysqli, $query);
 
     $result2 = mysqli_query($mysqli, $querynaam);
 
     $result3 = mysqli_query($mysqli, $queryww);
+
+    $result4 = mysqli_query($mysqli, $querylevel);
 
     if (mysqli_num_rows($result2) == 1){
         session_start();
