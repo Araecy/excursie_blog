@@ -16,7 +16,8 @@
         <a href="">Browse blogs</a>
 
         <a href="../backend/login.php">Login</a>
-        <a href="#">Register</a>
+        <a href="../backend/uitlog.php">Uitlog</a>
+        <a href="../backend/registreren.php">Register</a>
     </div>
     <hr />
     <div id="body-container">
