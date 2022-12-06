@@ -49,9 +49,7 @@ header{
     border: 1px solid white;
 }
 #links > a:hover{
-
     color: white;
-
     background-color: rgb(165, 227, 71);
     border-radius: 3px;
     border: 1px solid rgb(165, 227, 71);
