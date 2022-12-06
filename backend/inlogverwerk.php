@@ -6,7 +6,7 @@ $username = $_POST["inputusername"];
 $password = $_POST["inputpassword"];
 
 if (strlen($username)>0 && strlen($password)>0){
-    $password=sha1($password);
+    // $password=sha1($password);
 
     $query = "SELECT * FROM `usersblog` ";
     $query .= "WHERE username='$username' AND password='$password'";
@@ -38,5 +38,5 @@ if (strlen($username)>0 && strlen($password)>0){
     else {
         echo "<p>Naam en of wachtwoord fout.</p>";
     }
-    echo "<br><a href='inlog.php'>Ga Terug</a>";
+    echo "<br><a href='login.php'>Ga Terug</a>";
 }

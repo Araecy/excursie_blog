@@ -3,7 +3,7 @@
 require 'config.php';
 
 ?>
-<h2>Log nu in></h2>
+<h2>Log nu in</h2>
 <form method="post" action="inlogverwerk.php">
             <div>
                 <label for="inputusername">username</label>
