@@ -12,7 +12,7 @@
     <div id="links">
     
         <a href="index.php">Home</a>
-        <a href="">Create blog</a>
+        <a href="create.php">Create blog</a>
         <a href="">Browse blogs</a>
 
         <a href="../backend/login.php">Login</a>
