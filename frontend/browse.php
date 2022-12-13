@@ -55,7 +55,7 @@
             ?><div class="overzicht"><?php 
                 echo "<h2>" . $item['titel'] . "</h2><br>";
                 echo $item['tekst'] . "<br>";
-                echo $item['foto'] . "<br>";
+                echo "<img src='".$item['foto']."'><br>";
             ?></div><?php
                 // echo "<td><a href='detail.php?id=" . $item['id'] . "'>detail</a></td>";
                 // echo "<td><a href='deletevraag.php?id=" . $item['id'] . "'>X</a></td>";
