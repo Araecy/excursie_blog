@@ -101,5 +101,15 @@ form > input[type=submit] {
 }
 form > input:nth-child(7){
     height: 20%;
+}
+/* browse pagina */
 
+.overzicht{
+    margin: 100px 0 0 20%;
+    width: 30%;
+    border-style: solid;
+    padding: 50px;
+    border-color: rgb(165, 227, 71);
+    
+    background-color: rgb(230, 225, 225);
 }
