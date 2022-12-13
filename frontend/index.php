@@ -9,14 +9,21 @@
 </head>
 <body>
     <img id="logo" src="images/logo.png" alt="">
-    <div id="links">
-    
-        <a href="index.php">Home</a>
-        <a href="">Create blog</a>
-        <a href="">Browse blogs</a>
+    <div id="links" class="navBar">
+        <div class="nav1">
+            <a href="index.php">Home</a>
+            <a href="">Create blog</a>
+            <a href="">Browse blogs</a>
+        </div>
+        <div class="nav2">
+            <a href="../backend/login.php">Login</a>
+            <a href="#">Register</a>
+        </div>
+      
+        
 
-        <a href="../backend/login.php">Login</a>
-        <a href="#">Register</a>
+    
+    
     </div>
     <hr />
     <div id="body-container">
