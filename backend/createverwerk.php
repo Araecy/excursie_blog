@@ -4,16 +4,15 @@ ini_set("display_errors", 1);
 
 
 require 'config.php';
-require_once 'login_check.php';
+// require_once 'login_check.php';
 
 $titel = $_POST['title'];
 $content = $_POST['content'];
 $image = $_POST['image'];
 
-$query = "INSERT INTO `postsblog`(`titel`, `tekst`, `foto`) VALUES ('".$titel."','".$text."','".$image."')";
+$query = "INSERT INTO `postsblog`(`titel`, `tekst`, `foto`) VALUES ('".$titel."','".$content."','".$image."')";
 
 echo $query;
-
 
 $result = mysqli_query($mysqli, $query);
 

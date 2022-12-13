@@ -113,3 +113,26 @@ form > input:nth-child(7){
     
     background-color: rgb(230, 225, 225);
 }
+
+.navBar {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "nav nav";
+}
+
+div[class^="nav"] {
+    grid-area: nav;
+}
+div[class^="nav1"] {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+.nav2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
