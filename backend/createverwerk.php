@@ -10,20 +10,6 @@ $titel = $_POST['title'];
 $content = $_POST['content'];
 $image = $_POST['image'];
 
-$query = "INSERT INTO `postsblog`(`titel`, `tekst`, `foto`) VALUES ('".$titel."','".$content."','".$image."')";
-
-echo $query;
-
-$result = mysqli_query($mysqli, $query);
-
-if ($result){
-    echo "Het item is toegevoegd!<br/>";
-    // header('Location: ../frontend/browse.php');
-}
-else{
-    echo "FOUT bij toevoegen!<br/>";
-    echo mysqli_error($mysqli);
-}
 
 
 // photo upload > Filezilla
@@ -37,9 +23,27 @@ $timestamp = date('d:m:y:h:i:s');
 $filename = $naam;
 $filename .= $timestamp. "." . $ext;
 $dir = "afbeelding/";
+
+
+$query = "INSERT INTO `postsblog`(`titel`, `tekst`, `foto`) VALUES ('".$titel."','".$content."','".$filename."')";
+
+// echo $query;
+
+$result = mysqli_query($mysqli, $query);
+
+if ($result){
+    // echo "Het item is toegevoegd!<br/>";
+    // header('Location: ../frontend/browse.php');
+}
+else{
+    echo "FOUT bij toevoegen!<br/>";
+    echo mysqli_error($mysqli);
+}
+
+
 if (move_uploaded_file($temp, $directory. "/" .$filename))
 {
-    echo "$filename uploaded <br/>";
+    // echo "$filename uploaded <br/>";
 }
 else {
     echo "FOUT! bij het uploaden $filename";
