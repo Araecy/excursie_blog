@@ -22,7 +22,7 @@
     </div>
     <hr />
     <div id="body-container">
-        <form action="../backend/createverwerk.php" method="post">
+        <form action="../backend/createverwerk.php" method="post" enctype="multipart/form-data">
             <label for="">Title: </label></br>
             <input type="text" name="title" id="title"></br>
 

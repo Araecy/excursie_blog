@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 1</title>
+</head>
+<body>
+    <h2>Upload Bestand:</h2>
+    <!-- <form action="opdracht1_verwerk.php" method="post" enctype="multipart/form-data">
+        <label for="bestand">Filename:</label>
+        <input type="file" name="bestand" id="bestand">
+        <input type="submit" name="verstuurbestand" value="uploadBestand">     <br/><br/>
+    </form> -->
+
+    <form action="opdracht1_verwerk.php" method="post" enctype="multipart/form-data">
+        <label for="afd">Afbeelding:</label>
+        <input type="file" name="afbeelding" id="afd" accept="image/*">
+        <input type="submit" name="verstuurafbeelding" value="uploadAfbeelding">     <br/><br/>
+    </form>
+
+    <form action="opdracht1_verwerk.php" method="post" enctype="multipart/form-data">
+        <label for="doc">Document:</label>
+        <input type="file" name="document" id="doc" accept=".docx, .doc, .pdf">
+        <input type="submit" name="verstuurdocument" value="uploadDocument">     <br/><br/>
+    </form>
+    <br><a href="index.html">HOME</a><br>
+</body>
+</html>
