@@ -1,3 +1,8 @@
+<?php 
+
+require_once '../backend/login_check.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +17,8 @@
     <div id="links">
     
         <a href="index.php">Home</a>
-        <a href="">Create blog</a>
-        <a href="">Browse blogs</a>
-
+        <a href="create.php">Create blog</a>
+        <a href="browse.php">Browse blogs</a>
 
         <a href="../backend/login.php">Login</a>
         <a href="../backend/uitlog.php">Uitlog</a>
@@ -22,7 +26,7 @@
     </div>
     <hr />
     <div id="body-container">
-        <form action="../backend/createverwerk.php" method="post" enctype="multipart/form-data">
+    <form action="../backend/createverwerk.php" method="post" enctype="multipart/form-data">
             <label for="">Title: </label></br>
             <input type="text" name="title" id="title"></br>
 
@@ -34,6 +38,7 @@
 
             <input type="submit">
         </form>
+
 
     </div>
     <footer>

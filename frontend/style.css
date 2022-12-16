@@ -111,6 +111,7 @@ form > input:nth-child(7){
     grid-template-columns: auto auto;
     grid-template-rows: 1fr;
     gap:25px;
+    max-width: 85%;
 }
 .overzicht{
     margin: 0px auto;
@@ -118,10 +119,12 @@ form > input:nth-child(7){
     padding: 3px;
     background-color: rgb(230, 225, 225);
     border: solid rgb(165, 227, 71) 2px;
+    border-radius: 8px;
 }
 .overzicht > .img{
     width: 100%;
     max-height: 300px;
+    border-radius: 8px;
 }
 .overzicht > h2{
     padding: 8px;
@@ -152,4 +155,25 @@ div[class^="nav1"] {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+}
+.indexwrapper {
+    text-align: center;
+    margin: 150px auto 0px auto;
+    width: 80%;
+
+}
+.indexwrapper > h1{
+
+}
+.indexwrapper > a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(165, 227, 71);
+    border-radius: 3px;
+    border: 1px solid white;
+}
+#indexbg{
+    width: 100%;
+    margin: 120px 0px 0px 0px;
 }

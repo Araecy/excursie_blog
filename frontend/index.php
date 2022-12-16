@@ -13,7 +13,7 @@
     
         <a href="index.php">Home</a>
         <a href="create.php">Create blog</a>
-        <a href="">Browse blogs</a>
+        <a href="browse.php">Browse blogs</a>
 
         <a href="../backend/login.php">Login</a>
         <a href="../backend/uitlog.php">Uitlog</a>
@@ -21,8 +21,12 @@
     </div>
     <hr />
     <div id="body-container">
-
-
+        <div class="indexwrapper">
+        <h1>Welkom bij de Excursieblog van het GLR!</h1>
+        <a href="browse.php">Blogs bekijken</a>
+        <a href="create.php">Blog Toevoegen</a>
+        </div>
+        <img id="indexbg" src="images/indexbackground.png">
     </div>
     <footer>
 

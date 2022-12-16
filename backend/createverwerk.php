@@ -61,3 +61,4 @@ foreach ($a as $item )
 {
   echo "<img src='afbeelding/".$item."'><br/>";
 }
+header('Location: ../frontend/browse.php');
