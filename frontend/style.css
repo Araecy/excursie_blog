@@ -115,7 +115,8 @@ form > input:nth-child(7){
 }
 .overzicht{
     margin: 0px auto;
-    width: 35vh;
+    width: 75%;
+    height: 100%;
     padding: 3px;
     background-color: rgb(230, 225, 225);
     border: solid rgb(165, 227, 71) 2px;
